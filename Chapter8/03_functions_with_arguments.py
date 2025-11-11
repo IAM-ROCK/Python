@@ -8,6 +8,9 @@ goodday("Divya")
 
 def good(name,ending):
     print("Good moring "+name, ending)
+    return "Done"
     
     
-good("Harry,","How are you?")    
+good("Harry,","How are you?")   
+a= good("Harry,","How are you?")   
+print(a)

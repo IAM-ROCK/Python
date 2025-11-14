@@ -1,3 +1,6 @@
+#Repeat program 4 for a list of such words to be censored.
+
+
 words = ["Donkey","bad","ganda"]
 
 with open("file.txt","r") as f:

@@ -2,7 +2,10 @@ class Employee:
     language="Py" # This is a class attribute
     salary=120000
     
-    def __init__(self):
+    def __init__(self,name,salary,language):
+        self.name=name
+        self.salary=salary
+        self.language=language
         print("I am creating an object")
     
     def getInfo(self):
@@ -13,6 +16,8 @@ class Employee:
         print("Good morning")
 
 deekshith=Employee( "Deekshith",130000,"JavaScript")
-deekshith.name="Deekshith"
-print(deekshith.name,deekshith.salary)
+#deekshith.name="Deekshith"
+print(deekshith.name,deekshith.salary,deekshith.language)
+
+#rohan=Employee()
 

@@ -12,7 +12,7 @@ class Employee:
     def greet():
         print("Good morning")
 
-deekshith=Employee()
+deekshith=Employee( "Deekshith",130000,"JavaScript")
 deekshith.name="Deekshith"
 print(deekshith.name,deekshith.salary)
 

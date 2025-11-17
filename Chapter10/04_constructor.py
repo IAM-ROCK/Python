@@ -19,5 +19,5 @@ deekshith=Employee( "Deekshith",130000,"JavaScript")
 #deekshith.name="Deekshith"
 print(deekshith.name,deekshith.salary,deekshith.language)
 
-rohan=Employee() 
+#rohan=Employee() 
 

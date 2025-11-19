@@ -8,7 +8,7 @@ class Programmer:
 p= Programmer("Deekshith",120000,517)
 print(p.name,p.salary,p.pin,p.company)     
 
-r= Programmer("Rohit",10000,5172)
+r= Programmer("Rohit",10000,5172) 
 print(r.name,r.salary,r.pin,r.company)   
         
         

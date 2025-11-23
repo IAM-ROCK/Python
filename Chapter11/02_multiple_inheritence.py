@@ -21,7 +21,10 @@ class Programmer(Employee,Coder):
 a=Employee()
 b=Programmer()
 
+
 print(a.company , b.company)
 b.show()
 b.printLanguages()
 b.showLangauage()
+
+print(b.language)
